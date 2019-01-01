@@ -23,7 +23,7 @@
 
 .nav-link{
 	list-style-type: none;
-	color:#ea5f6f;
+	color:#1991c8;
 	font-weight:500;
 }
 .nav-link:hover{
@@ -68,18 +68,19 @@
 }
 
 #plan{
-	background-color:#1991c8;
 	background-size: cover;
 	text-align:center;
-	color:white;
 	padding:30px;
 }
 
 nav {
-	background-color:#1991c8;
+	/*background-color:#1991c8;*/
 	-webkit-box-shadow: 3px 8px 16px -1px rgba(0,0,0,0.38);
 	-moz-box-shadow: 3px 8px 16px -1px rgba(0,0,0,0.38);
 	box-shadow: 3px 8px 16px -1px rgba(0,0,0,0.38);
+}
+nav:hover {
+	background-color:white;
 }
 
 .social{
@@ -102,4 +103,23 @@ nav {
     height: 100%;
     width:100%;
     position:absolute;
+}
+
+.portrait{
+	max-width:246px;
+}
+
+h2, h3{
+	color:#ea5f6f;
+}
+
+.jumbotron {
+background: #1991c8;
+color:white;
+border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 24px;
+padding-bottom: 24px; }
+.jumbotron small {
+color: #ea5f6f;
 }
