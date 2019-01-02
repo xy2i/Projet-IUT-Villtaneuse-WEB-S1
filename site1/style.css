@@ -8,11 +8,6 @@
  }
 }
 
-
-.navbar{
-	color:#0b3351;
-}
-
 .navbar-toggler {
   border-color: #ea5f6f;
 } 
@@ -74,7 +69,7 @@
 }
 
 nav {
-	/*background-color:#1991c8;*/
+	background-color:white;
 	-webkit-box-shadow: 3px 8px 16px -1px rgba(0,0,0,0.38);
 	-moz-box-shadow: 3px 8px 16px -1px rgba(0,0,0,0.38);
 	box-shadow: 3px 8px 16px -1px rgba(0,0,0,0.38);
@@ -97,6 +92,7 @@ nav:hover {
     position:relative;
     height:0;
 }
+
 .map-responsive iframe{
     left:0;
     top:0;
@@ -118,7 +114,8 @@ background: #1991c8;
 color:white;
 border-radius: 0px;
 }
-.jumbotron-sm { padding-top: 24px;
+.jumbotron-sm { 
+	padding-top: 24px;
 padding-bottom: 24px; }
 .jumbotron small {
 color: #ea5f6f;
