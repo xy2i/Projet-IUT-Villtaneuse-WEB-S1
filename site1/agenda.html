@@ -26,6 +26,7 @@
                 </div>
             </div>
         </div>
+      
         <nav class="navbar sticky-top navbar-expand-lg">
             <a class="navbar-brand img-fluid" href="home.html">
             <img src="img/logo.png" width="64" height="24" alt="logo">
@@ -60,114 +61,159 @@
                 </form>
             </div>
         </nav>
+        
         <div class="container">
-          <h2 class="text-center center-block">AGENDA CULTUREL</h2>
-          <section>
-            <div class="row">
-              <div class="col-md-12">
-                <div class="card bg-dark text-white">
-                  <img id="splash" src="img/photo3.jpg" height="400" class="card-img" alt="D' de Kabal">
-                  <div class="card-img-overlay d-flex flex-column justify-content-end">
-                    <h1 class="card-title">D' de Kabal: conférences musicales</h1>
-                    <h5 class="card-subtitle mb-2">Déconstruction et redéfinition du masculin par l'art du sensible</h5>
-                    <p class="card-text text-muted"><b>Lundi 8 octobre</b> à 13h, Forum<br>
-                    <b>Lundi 19 novembre</b> à 15h30, Amphi 3</p>
-                    <p class="card-text text-muted">Par <cite title="D' de Kabal">D' de Kabal</cite></p>
-                    <button type="button" class="btn btn-primary btn-lg btn-block">Plus d'infos</button>
-                  </div>
+          <h2 class="text-center center-block mt-3">AGENDA CULTUREL</h2>
+          
+          <div class="row">
+          <div class="btn-group btn-block" role="group" aria-label="Mois">
+            <a class="btn btn-primary btn-lg" data-toggle="collapse" href="#janvier" role="button" aria-expanded="true" aria-controls="janvier">Janvier</a>
+            <a class="btn btn-primary btn-lg" data-toggle="collapse" href="#février" role="button" aria-expanded="true" aria-controls="janvier">Février</a>
+            <a class="btn btn-primary btn-lg" data-toggle="collapse" href="#février" role="button" aria-expanded="true" aria-controls="janvier">Mars</a>
+            <a class="btn btn-primary btn-lg" data-toggle="collapse" href="#février" role="button" aria-expanded="true" aria-controls="janvier">Mai</a>
+            <a class="btn btn-primary btn-lg" data-toggle="collapse" href="#février" role="button" aria-expanded="true" aria-controls="janvier">Juin</a>
+            <a class="btn btn-primary btn-lg" data-toggle="collapse" href="#février" role="button" aria-expanded="true" aria-controls="janvier">Juillet</a>
+            <a class="btn btn-primary btn-lg" data-toggle="collapse" href="#février" role="button" aria-expanded="true" aria-controls="janvier">Août</a>
+          </div>
+          </div>
+            
+          <div class="row mt-3"></div>
+
+          <div class="row">
+          <div class="accordion" id="dropdownMois">
+            <div class="collapse show" id="janvier" data-parent="#dropdownMois">
+              <div class="card bg-dark text-white">
+                <img id="splash" src="img/photo3.jpg" height="400" class="card-img" alt="D' de Kabal">
+                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                  <h1 class="card-title">D' de Kabal: conférences musicales</h1>
+                  <h5 class="card-subtitle mb-2">Déconstruction et redéfinition du masculin par l'art du sensible</h5>
+                  <p class="card-text text-muted"><b>Lundi 8 octobre</b> à 13h, Forum<br>
+                  <b>Lundi 19 novembre</b> à 15h30, Amphi 3</p>
+                  <p class="card-text text-muted">Par <cite title="D' de Kabal">D' de Kabal</cite></p>
+                  <button type="button" class="btn btn-primary btn-lg btn-block">Plus d'infos</button>
                 </div>
               </div>
-            </div>
-            <div class="row mt-3"></div>
-          </section>
-          <section>
-            <div class="card-group">
-              <div class="card">
-                <img src="img/slide_1.jpg" height="400" class="card-img-top second-etage" alt="Mur avec personnes à la verticale">
-                <div class="d-flex flex-column card-body justify-content-end">
-                  <h1 class="card-title">Retouramont</h1>
-                  <h5 class="card-subtitle mb-2">Une danse verticale: La Drôle de Traversée</h5>
-                  <p class="card-text text-muted">En partenariat avec le <a href="http://www.mairie-villetaneuse.fr/detail-acteur?id_acteur=41">Service Culturel de la ville de Villetaneuse</a></p>
-                  <button type="button" class="mt-auto btn btn-primary btn-block">Plus d'infos</button>
-                </div>
-              </div>
-              <div class="card">
-                <img src="img/agenda/plume.jpg" height="400" class="card-img-top second-etage" alt="Image historique 14/18">
-                <div class="d-flex flex-column card-body justify-content-end">
-                  <h1 class="card-title">La plume au fusil</h1>
-                  <h5 class="card-subtitle mb-2">14/18 2018: La Grande Guerre en mots et en images</h5>
-                  <p class="card-text text-muted">Du <b>24 septembre</b> au <b>11 octobre</b>, Café Expo<br>Du <b>24 septembre</b> au <b>16 novembre</b>, Bibliothèque Edgar Morin</p>
-                  <p class="card-text text-muted">En partenariat avec le <a href="http://www.mairie-villetaneuse.fr/detail-acteur?id_acteur=41">Département de Seine-Saint-Denis</a> et la <a href="https://www.univ-paris13.fr/bibliotheques/">Bibliothèque Edgar Morin</a></p>
-                  <button type="button" class="mt-auto btn btn-primary btn-block">Plus d'infos</button>
-                </div>
-              </div>
-            </div>
-            <div class="row mt-3"></div>
-          </section>
-          <section>
-            <div class="card-columns">
+              <div class="row mt-3"></div>
+              <div class="card-group">
             <div class="card">
-              <img src="img/agenda/graff.jpg" height="400" class="card-img-top troisieme-etage" alt="Graffiti mural">
-              <div class="card-body">
-                <h3 class="card-title">Atelier: Graff</h3>
-                <h6 class="card-subtitle mb-2">Ateliers de graffiti et réalisation</h6>
-                <p class="card-text text-muted">Mercredis <b>3, 10 et 17 octobre</b><br>Réalisation collective le <b>24 septembre</b> au <b>16 novembre</b>, Bibliothèque Edgar Morin</p>
-                <p class="card-text text-muted">En partenariat avec le <a href="http://www.crous-creteil.fr/">Crous de Créteil</a> et Mouvementh</p>
+              <img src="img/slide_1.jpg" height="400" class="card-img-top second-etage" alt="Mur avec personnes à la verticale">
+              <div class="d-flex flex-column card-body justify-content-end">
+                <h1 class="card-title">Retouramont</h1>
+                <h5 class="card-subtitle mb-2">Une danse verticale: La Drôle de Traversée</h5>
+                <p class="card-text text-muted">En partenariat avec le <a href="http://www.mairie-villetaneuse.fr/detail-acteur?id_acteur=41">Service Culturel de la ville de Villetaneuse</a></p>
                 <button type="button" class="mt-auto btn btn-primary btn-block">Plus d'infos</button>
               </div>
             </div>
             <div class="card">
-              <img src="img/agenda/water.jpg" height="400" class="card-img-top troisieme-etage" alt="Poster de propagande anti-industrialisation">
-              <div class="card-body">
-                <h3 class="card-title">Protecteurs de l'eau, gardiens de la terre</h3>
-                <h6 class="card-subtitle mb-2">Collectifs d'artistes amérindiens</h6>
-                <p class="card-text text-muted">Du <b>8 au 26 octobre</b>, Forum<br>Du <b>15 au 26 octobre</b>, Café Expo</p>
-                <p class="card-text text-muted">En partenariat avec le Département d'Anglais et le <a href="http://www.csia-nitassinan.org/">CSIA</a></p>
-                <button type="button" class="mt-auto btn btn-primary btn-block">Plus d'infos</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="img/agenda/plume.jpg" height="400" class="card-img-top troisieme-etage" alt="Image historique 14/18">
-              <div class="card-body">
-                <h3 class="card-title">La plume au fusil</h3>
-                <h6 class="card-subtitle mb-2">14/18 2018: La Grande Guerre en mots et en images</h6>
+              <img src="img/agenda/plume.jpg" height="400" class="card-img-top second-etage" alt="Image historique 14/18">
+              <div class="d-flex flex-column card-body justify-content-end">
+                <h1 class="card-title">La plume au fusil</h1>
+                <h5 class="card-subtitle mb-2">14/18 2018: La Grande Guerre en mots et en images</h5>
                 <p class="card-text text-muted">Du <b>24 septembre</b> au <b>11 octobre</b>, Café Expo<br>Du <b>24 septembre</b> au <b>16 novembre</b>, Bibliothèque Edgar Morin</p>
                 <p class="card-text text-muted">En partenariat avec le <a href="http://www.mairie-villetaneuse.fr/detail-acteur?id_acteur=41">Département de Seine-Saint-Denis</a> et la <a href="https://www.univ-paris13.fr/bibliotheques/">Bibliothèque Edgar Morin</a></p>
                 <button type="button" class="mt-auto btn btn-primary btn-block">Plus d'infos</button>
               </div>
             </div>
-            <div class="card">
-              <img src="img/agenda/ombres.jpg" height="400" class="card-img-top troisieme-etage" alt="Trois acteurs en hoodies et en noir">
-              <div class="card-body">
-                <h3 class="card-title">La Mécanique des ombres</h3>
-                <h6 class="card-subtitle mb-2">Une Mécanique des ombres instinctive où le corps tisse le lien, où la chute crée la rencontre et l'urgence d'être au monde.</h6>
-                <p class="card-text text-muted"><b>Mercredi 14 novembre</b> à 13h, Forum</p>
-                <button type="button" class="mt-auto btn btn-primary btn-block">Plus d'infos</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="img/slide_1.jpg" height="400" class="card-img-top troisieme-etage" alt="Mur avec personnes à la verticale">
-              <div class="card-body">
-                <h3 class="card-title">Retouramont</h3>
-                <h6 class="card-subtitle mb-2">Une danse verticale: La Drôle de Traversée</h6>
-                <p class="card-text text-muted">En partenariat avec le <a href="http://www.mairie-villetaneuse.fr/detail-acteur?id_acteur=41">Service Culturel de la ville de Villetaneuse</a></p>
-                <button type="button" class="btn btn-primary btn-block">Plus d'infos</button>
-              </div>
-            </div>
-            <div class="card">
-              <img src="img/slide_2.jpg" height="400" class="card-img-top troisieme-etage" alt="D' de Kabal">
-              <div class="d-flex flex-column card-body justify-content-end">
-                <h3 class="card-title">D' de Kabal: conférences musicales</h3>
-                <h6 class="card-subtitle mb-2">Déconstruction et redéfinition du masculin par l'art du sensible</h6>
-                <p class="card-text text-muted"><b>Lundi 8 octobre</b> à 13h, Forum<br>
-                <b>Lundi 19 novembre</b> à 15h30, Amphi 3</p>
-                <p class="card-text text-muted">Par <cite title="D' de Kabal">D' de Kabal</cite></p>
-                <button type="button" class="btn btn-primary btn-block">Plus d'infos</button>
-              </div>
-            </div>
           </div>
-          </section>
+              <div class="row mt-3"></div>
+              <div class="card-columns">
+                <div class="card">
+                    <img src="img/agenda/graff.jpg" height="400" class="card-img-top troisieme-etage" alt="Graffiti mural">
+                    <div class="card-body">
+                      <h3 class="card-title">Atelier: Graff</h3>
+                      <h6 class="card-subtitle mb-2">Ateliers de graffiti et réalisation</h6>
+                      <p class="card-text text-muted">Mercredis <b>3, 10 et 17 octobre</b><br>Réalisation collective le <b>24 septembre</b> au <b>16 novembre</b>, Bibliothèque Edgar Morin</p>
+                      <p class="card-text text-muted">En partenariat avec le <a href="http://www.crous-creteil.fr/">Crous de Créteil</a> et Mouvementh</p>
+                      <button type="button" class="mt-auto btn btn-primary btn-block">Plus d'infos</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/agenda/water.jpg" height="400" class="card-img-top troisieme-etage" alt="Poster de propagande anti-industrialisation">
+                    <div class="card-body">
+                      <h3 class="card-title">Protecteurs de l'eau, gardiens de la terre</h3>
+                      <h6 class="card-subtitle mb-2">Collectifs d'artistes amérindiens</h6>
+                      <p class="card-text text-muted">Du <b>8 au 26 octobre</b>, Forum<br>Du <b>15 au 26 octobre</b>, Café Expo</p>
+                      <p class="card-text text-muted">En partenariat avec le Département d'Anglais et le <a href="http://www.csia-nitassinan.org/">CSIA</a></p>
+                      <button type="button" class="mt-auto btn btn-primary btn-block">Plus d'infos</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/agenda/plume.jpg" height="400" class="card-img-top troisieme-etage" alt="Image historique 14/18">
+                    <div class="card-body">
+                      <h3 class="card-title">La plume au fusil</h3>
+                      <h6 class="card-subtitle mb-2">14/18 2018: La Grande Guerre en mots et en images</h6>
+                      <p class="card-text text-muted">Du <b>24 septembre</b> au <b>11 octobre</b>, Café Expo<br>Du <b>24 septembre</b> au <b>16 novembre</b>, Bibliothèque Edgar Morin</p>
+                      <p class="card-text text-muted">En partenariat avec le <a href="http://www.mairie-villetaneuse.fr/detail-acteur?id_acteur=41">Département de Seine-Saint-Denis</a> et la <a href="https://www.univ-paris13.fr/bibliotheques/">Bibliothèque Edgar Morin</a></p>
+                      <button type="button" class="mt-auto btn btn-primary btn-block">Plus d'infos</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/agenda/ombres.jpg" height="400" class="card-img-top troisieme-etage" alt="Trois acteurs en hoodies et en noir">
+                    <div class="card-body">
+                      <h3 class="card-title">La Mécanique des ombres</h3>
+                      <h6 class="card-subtitle mb-2">Une Mécanique des ombres instinctive où le corps tisse le lien, où la chute crée la rencontre et l'urgence d'être au monde.</h6>
+                      <p class="card-text text-muted"><b>Mercredi 14 novembre</b> à 13h, Forum</p>
+                      <button type="button" class="mt-auto btn btn-primary btn-block">Plus d'infos</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/slide_1.jpg" height="400" class="card-img-top troisieme-etage" alt="Mur avec personnes à la verticale">
+                    <div class="card-body">
+                      <h3 class="card-title">Retouramont</h3>
+                      <h6 class="card-subtitle mb-2">Une danse verticale: La Drôle de Traversée</h6>
+                      <p class="card-text text-muted">En partenariat avec le <a href="http://www.mairie-villetaneuse.fr/detail-acteur?id_acteur=41">Service Culturel de la ville de Villetaneuse</a></p>
+                      <button type="button" class="btn btn-primary btn-block">Plus d'infos</button>
+                    </div>
+                </div>
+                <div class="card">
+                  <img src="img/slide_2.jpg" height="400" class="card-img-top troisieme-etage" alt="D' de Kabal">
+                    <div class="card-body">
+                      <h3 class="card-title">D' de Kabal: conférences musicales</h3>
+                      <h6 class="card-subtitle mb-2">Déconstruction et redéfinition du masculin par l'art du sensible</h6>
+                      <p class="card-text text-muted"><b>Lundi 8 octobre</b> à 13h, Forum<br>
+                      <b>Lundi 19 novembre</b> à 15h30, Amphi 3</p>
+                      <p class="card-text text-muted">Par <cite title="D' de Kabal">D' de Kabal</cite></p>
+                      <button type="button" class="btn btn-primary btn-block">Plus d'infos</button>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="collapse" id="février" data-parent="#dropdownMois">
+              <div class="card-columns">
+                <div class="card">
+                  <img src="img/agenda/graff.jpg" height="400" class="card-img-top troisieme-etage" alt="Graffiti mural">
+                  <div class="card-body">
+                    <h3 class="card-title">Atelier: Graff</h3>
+                    <h6 class="card-subtitle mb-2">Ateliers de graffiti et réalisation</h6>
+                    <p class="card-text text-muted">Mercredis <b>3, 10 et 17 octobre</b><br>Réalisation collective le <b>24 septembre</b> au <b>16 novembre</b>, Bibliothèque Edgar Morin</p>
+                    <p class="card-text text-muted">En partenariat avec le <a href="http://www.crous-creteil.fr/">Crous de Créteil</a> et Mouvementh</p>
+                    <button type="button" class="mt-auto btn btn-primary btn-block">Plus d'infos</button>
+                  </div>
+                </div>
+                <div class="card">
+                    <img src="img/agenda/water.jpg" height="400" class="card-img-top troisieme-etage" alt="Poster de propagande anti-industrialisation">
+                    <div class="card-body">
+                      <h3 class="card-title">Protecteurs de l'eau, gardiens de la terre</h3>
+                      <h6 class="card-subtitle mb-2">Collectifs d'artistes amérindiens</h6>
+                      <p class="card-text text-muted">Du <b>8 au 26 octobre</b>, Forum<br>Du <b>15 au 26 octobre</b>, Café Expo</p>
+                      <p class="card-text text-muted">En partenariat avec le Département d'Anglais et le <a href="http://www.csia-nitassinan.org/">CSIA</a></p>
+                      <button type="button" class="mt-auto btn btn-primary btn-block">Plus d'infos</button>
+                    </div>
+                </div>
+                <div class="card">
+                  <img src="img/slide_1.jpg" height="400" class="card-img-top troisieme-etage" alt="Mur avec personnes à la verticale">
+                  <div class="card-body">
+                    <h3 class="card-title">Retouramont</h3>
+                    <h6 class="card-subtitle mb-2">Une danse verticale: La Drôle de Traversée</h6>
+                    <p class="card-text text-muted">En partenariat avec le <a href="http://www.mairie-villetaneuse.fr/detail-acteur?id_acteur=41">Service Culturel de la ville de Villetaneuse</a></p>
+                    <button type="button" class="btn btn-primary btn-block">Plus d'infos</button>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
+        </div>
+            
         <footer class="footer container" style="color:#1991c8;">
             <hr>
             <div class="text-center center-block">
