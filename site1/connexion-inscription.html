@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Le service culturel de l'université Paris 13</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="utilisateur.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container mx-auto">
+            <div class="row">
+                <div class="col-md-6 text-center">
+                    <a href="home.html" style="text-decoration: none; color: black;">
+                        <h1>Service culturel UP13</h1>
+                    </a>
+                </div>
+                <div class="col-md-6 text-center" id="logo">
+                    <a class="img-fluid" href="https://www.univ-paris13.fr/" style="text-decoration: none; color: black;">
+                    <img src="img/logo.png" width="96" height="36" alt="logo">
+                    </a>
+                    <div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar sticky-top navbar-expand-lg">
+            <a class="navbar-brand img-fluid" href="#">
+            <img src="img/logo.png" width="64" height="24" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link connection" href="utilisateur.html">Mes réservations</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="presentation.html">LE SERVICE CULTUREL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">L'AGENDA CULTUREL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">NOS ARTISTES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">LES FORMATIONS</a>
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <div class="input-group">
+                        <input class="form-control py-2 border-right-0 border" type="search" placeholder="Rechercher…">
+                        <span class="input-group-append">
+                        <button class="input-group-text bg-transparent">
+                        <i class="fa fa-search"></i>
+                        </button>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </nav>
+        <br/>    
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card">
+                        <header class="card-header">
+                            <a href="" class="float-right btn btn-outline-primary mt-1">Se connecter</a>
+                            <h4 class="card-title mt-2">S'inscrire</h4>
+                        </header>
+                        <article class="card-body">
+                            <form>
+                                <div class="form-row">
+                                    <div class="col form-group">
+                                        <label>Prénom </label>   
+                                        <input type="text" class="form-control" placeholder="">
+                                    </div>
+                                    <!-- form-group end.// -->
+                                    <div class="col form-group">
+                                        <label>Nom</label>
+                                        <input type="text" class="form-control" placeholder=" ">
+                                    </div>
+                                    <!-- form-group end.// -->
+                                </div>
+                                <!-- form-row end.// -->
+                                <div class="form-group">
+                                    <label>Adresse mail</label>
+                                    <input type="email" class="form-control" placeholder="">
+                                    <small class="form-text text-muted">Ne partagez pas vos identifiants.</small>
+                                </div>
+                                <!-- form-group end.// -->
+                                <div class="form-row">
+                                </div>
+                                <!-- form-row.// -->
+                                <div class="form-group">
+                                    <label>Créer un mot de passe</label>
+                                    <input class="form-control" type="password">
+                                </div>
+                                <!-- form-group end.// -->  
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary btn-block"> S'inscrire  </button>
+                                </div>
+                                <!-- form-group// -->      
+                                <small class="text-muted">En cliquant sur le bouton, j'accepte les conditions générales.</small>                                          
+                            </form>
+                        </article>
+                        <!-- card-body end .// -->
+                        <div class="border-top card-body text-center">Vous avez déjà un compte ? <a href="">Se connecter</a></div>
+                    </div>
+                    <!-- card.// -->
+                </div>
+                <!-- col.//-->
+            </div>
+            <!-- row.//-->
+            <br/>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card">
+                        <header class="card-header">
+                            <a href="" class="float-right btn btn-outline-primary mt-1">S'inscrire</a>
+                            <h4 class="card-title mt-2">Connexion</h4>
+                        </header>
+                        <article class="card-body">
+                            <form>
+                                <div class="form-group">
+                                    <label>Adresse mail</label>
+                                    <input type="email" class="form-control" placeholder="">
+                                </div>
+                                <!-- form-group end.// -->
+                                <div class="form-row">
+                                </div>
+                                <!-- form-row.// -->
+                                <div class="form-group">
+                                    <label>Mot de passe</label>
+                                    <input class="form-control" type="password">
+                                </div>
+                                <!-- form-group end.// -->  
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary btn-block"> S'inscrire  </button>
+                                </div>
+                                <!-- form-group// -->                                         
+                            </form>
+                        </article>
+                        <!-- card-body end .// -->
+                        <div class="border-top card-body text-center">Vous n'avez pas de compte ? <a href="">Inscrivez vous</a></div>
+                    </div>
+                    <!-- card.// -->
+                </div>
+                <!-- col.//-->
+            </div>
+            <!-- row.//-->
+        </div>
+        </div> 
+        </article>
+        
+           <footer class="footer container" style="color:#1991c8;">
+            <hr>
+            <div class="text-center center-block">
+                <a href="https://www.facebook.com/" class="social"><i id="social-fb" class="fab fa-facebook-square fa-3x social"></i></a>
+                <a href="https://twitter.com/" class="social"><i id="social-tw" class="fab fa-twitter-square fa-3x social"></i></a>
+                <a href="https://plus.google.com/" class="social"><i id="social-gp" class="fab fa-google-plus-g fa-3x social"></i></a>
+                <a href="mailto:..@gmail.com" class="social"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+                <p class="txt-railway">- Université Paris 13 Service Culturel 2018-2019 -</p>
+            </div>
+            <hr>
+        </footer>
+    </body>
+</html>
